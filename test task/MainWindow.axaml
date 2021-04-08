@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+       
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="960" d:DesignHeight="740"
+        Width="960" Height="740" WindowStartupLocation="CenterScreen"
+        x:Class="test_task.MainWindow"
+        Title="Wikipedia Parser">
+  
+  <StackPanel>
+    <TextBlock Text="Insert Wikipedia link that refers to a music album:" FontSize="15" VerticalAlignment="Top" ></TextBlock>
+    <TextBox Text="https://en.wikipedia.org/wiki/Playing_the_Angel" Name="wikipediaLinkField" Opacity="95" ></TextBox>
+    <ItemsRepeater Name="listOfSongs"></ItemsRepeater>
+
+
+    <DockPanel>
+    <Button Click="buttonGetMusicData_Click" Name="buttonGetMusicData" DockPanel.Dock="Bottom" Content="Get Music Data" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"></Button>
+
+    </DockPanel>
+  </StackPanel>
+ 
+</Window>
