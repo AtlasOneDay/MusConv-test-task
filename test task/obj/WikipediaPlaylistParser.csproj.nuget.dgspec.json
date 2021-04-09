@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MusConv test task\\WikipediaPlaylistParser\\test task\\test task.csproj": {}
+    "D:\\MusConv test task\\WikipediaPlaylistParser\\test task\\WikipediaPlaylistParser.csproj": {}
   },
   "projects": {
-    "D:\\MusConv test task\\WikipediaPlaylistParser\\test task\\test task.csproj": {
+    "D:\\MusConv test task\\WikipediaPlaylistParser\\test task\\WikipediaPlaylistParser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MusConv test task\\WikipediaPlaylistParser\\test task\\test task.csproj",
-        "projectName": "test task",
-        "projectPath": "D:\\MusConv test task\\WikipediaPlaylistParser\\test task\\test task.csproj",
+        "projectUniqueName": "D:\\MusConv test task\\WikipediaPlaylistParser\\test task\\WikipediaPlaylistParser.csproj",
+        "projectName": "WikipediaPlaylistParser",
+        "projectPath": "D:\\MusConv test task\\WikipediaPlaylistParser\\test task\\WikipediaPlaylistParser.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "D:\\MusConv test task\\WikipediaPlaylistParser\\test task\\obj\\",
         "projectStyle": "PackageReference",

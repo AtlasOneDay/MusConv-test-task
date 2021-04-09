@@ -129,3 +129,134 @@ D:\MusConv test task\test task\test task\obj\Debug\net5.0\ref\test task.dll
 D:\MusConv test task\test task\test task\obj\Debug\net5.0\test task.pdb
 D:\MusConv test task\test task\test task\obj\Debug\net5.0\test task.genruntimeconfig.cache
 D:\MusConv test task\test task\test task\bin\Debug\net5.0\HtmlAgilityPack.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\test task.exe
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\test task.deps.json
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\test task.runtimeconfig.json
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\test task.runtimeconfig.dev.json
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\test task.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ref\test task.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\test task.pdb
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Animation.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Base.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Controls.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.DesignerSupport.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.DesktopRuntime.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Dialogs.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Input.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Interactivity.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Layout.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Markup.Xaml.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Markup.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.MicroCom.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.OpenGL.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Styling.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Themes.Default.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Themes.Fluent.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Visuals.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Controls.DataGrid.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Desktop.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Diagnostics.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.FreeDesktop.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Native.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Remote.Protocol.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Skia.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.Win32.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Avalonia.X11.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\HarfBuzzSharp.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\HtmlAgilityPack.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\JetBrains.Annotations.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\SkiaSharp.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\System.Reactive.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\Tmds.DBus.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\win-arm64\native\av_libglesv2.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\win7-x64\native\av_libglesv2.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\win7-x86\native\av_libglesv2.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\osx\native\libAvaloniaNative.dylib
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\linux-arm\native\libSkiaSharp.so
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\linux-arm64\native\libSkiaSharp.so
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\linux-x64\native\libSkiaSharp.so
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\obj\Debug\net5.0\test task.csprojAssemblyReference.cache
+D:\MusConv test task\WikipediaPlaylistParser\test task\obj\Debug\net5.0\test task.GeneratedMSBuildEditorConfig.editorconfig
+D:\MusConv test task\WikipediaPlaylistParser\test task\obj\Debug\net5.0\test task.AssemblyInfoInputs.cache
+D:\MusConv test task\WikipediaPlaylistParser\test task\obj\Debug\net5.0\test task.AssemblyInfo.cs
+D:\MusConv test task\WikipediaPlaylistParser\test task\obj\Debug\net5.0\test task.csproj.CoreCompileInputs.cache
+D:\MusConv test task\WikipediaPlaylistParser\test task\obj\Debug\net5.0\test task.csproj.CopyComplete
+D:\MusConv test task\WikipediaPlaylistParser\test task\obj\Debug\net5.0\test task.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\obj\Debug\net5.0\ref\test task.dll
+D:\MusConv test task\WikipediaPlaylistParser\test task\obj\Debug\net5.0\test task.pdb
+D:\MusConv test task\WikipediaPlaylistParser\test task\obj\Debug\net5.0\test task.genruntimeconfig.cache

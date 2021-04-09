@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QRjZDVBf+Z+94V26Zu/E8dwSPVUdLwwmjFZw2R7wbA7wL4a4TxUDnvSwaTuTI24ebQz5VNIbgeYq+onKkOf/AA==",
+  "dgSpecHash": "gEbjeTIyfHqHo5eRRDex8kZltR49FYURt4HJK0apqU9KPxcLWajIhwV5B3o5FQus9BuWeFwZR7bGJy0HlYK3Sw==",
   "success": true,
-  "projectFilePath": "D:\\MusConv test task\\TEST TASK\\test task\\test task.csproj",
+  "projectFilePath": "D:\\MusConv test task\\WikipediaPlaylistParser\\test task\\WikipediaPlaylistParser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\avalonia\\0.10.0\\avalonia.0.10.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2020091801\\avalonia.angle.windows.natives.2.1.0.2020091801.nupkg.sha512",
