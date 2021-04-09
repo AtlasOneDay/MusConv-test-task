@@ -15,9 +15,9 @@ in separate column
 
 BUGS THAT WERE NOT FIXED:
 - if wikipedia table doesen't have "Total Length Row", last row of the table won't be included
-- bad representation of writers data
+FIXED - bad representation of writers data
 - if wikipedia table has more than 4 columns( for example has "producers" column), data won't be presented properly.
 - maybe possible to get a writer when he is not specified in a row, but didn't knew how to do it consistently because div which had that information, had no markings.
-- overall bad code readability.
-- didn't knew how to make ListView work, because everywhere it said that its unavailable in avalonia.
+FIXED - overall bad code readability.
+FIXED(made it work with listBox) - didn't knew how to make ListView work, because everywhere it said that its unavailable in avalonia.
 - no exceptions handled

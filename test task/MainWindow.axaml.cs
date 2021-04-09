@@ -13,15 +13,13 @@ namespace test_task
 {
     public class MainWindow : Window
     {
-        Scraper scraper; 
-        private ItemsRepeater listOfSongs;
-        private TextBox wikipediaLinkField;
+        private ListBox ListBox_listOfSongs;  //initialize controls
+        private TextBox TextBox_wikipediaLinkField;
         private string wikipediaLink;
 
-        List<SongInfo> Songs = new List<SongInfo>();
-        List<string> INFOstrings = new List<string>();
+        Scraper scraper;
         List<List<SongInfo>> listOfTablesWithSongs = new List<List<SongInfo>>();
-
+        List<SongInfo> listOfSongs = new List<SongInfo>();
         public MainWindow()
         {
             InitializeComponent();
@@ -33,48 +31,24 @@ namespace test_task
         }
         public void buttonGetMusicData_Click(object sender, RoutedEventArgs e)
         {
-            wikipediaLink = wikipediaLinkField.Text;
-
+            wikipediaLink = TextBox_wikipediaLinkField.Text; //get link from user textbox
             listOfTablesWithSongs = scraper.ScrapeSongsData(wikipediaLink);
-            if (listOfTablesWithSongs == null)
+            if (listOfTablesWithSongs == null)                                //i know that one shouldn't return null but didn't know how to implement it otherwise
             {
-                wikipediaLinkField.Text = "INVALID LINK";
+                List<string> exceptionMessage = new List<string>() { "LINK FIELD IS EMPTY!" };
+                ListBox_listOfSongs.Items = exceptionMessage;
             }
             else
             {
-
-
-                foreach (List<SongInfo> table in listOfTablesWithSongs)
-                {
-                    foreach (SongInfo song in table)
-                    {
-                        Songs.Add(song);
-                    }
-                }
-
-                for (int i = 0; i < Songs.Count - 1; i++)
-                {
-
-                    INFOstrings.Add("Song Name: " + Songs[i].SongName + "\n "
-                        + "Artist Name: " + Songs[i].ArtistName + " "
-                        + "Writers: " + Songs[i].Writers + " "
-                        + "Duration: " + Songs[i].SongDuration);
-                }
-                listOfSongs.Items = INFOstrings;
+                listOfSongs = MainWindowUtility.GetSongsOutOfTables(listOfTablesWithSongs);
+                ListBox_listOfSongs.Items = MainWindowUtility.GetStringSongsData(listOfSongs);
             }
-
-
         }
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
-            listOfSongs = this.FindControl<ItemsRepeater>("listOfSongs"); //find control of itemsrepeater which shows list of songs
-            wikipediaLinkField = this.FindControl<TextBox>("wikipediaLinkField");
-            
-
-            
-        }
-
-        
+            ListBox_listOfSongs = this.FindControl<ListBox>("listOfSongs");    //find control of itemsrepeater which shows list of songs
+            TextBox_wikipediaLinkField = this.FindControl<TextBox>("wikipediaLinkField");       
+        }       
     }
 }
