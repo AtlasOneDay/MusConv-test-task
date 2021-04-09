@@ -105,7 +105,8 @@ namespace test_task
         }
         private static bool ValidatedForTable(HtmlNode row, HtmlNodeCollection listOfRows)
         {
-            if (row == listOfRows[0] || row == listOfRows[listOfRows.Count - 1])
+            bool RowIsCalledTotalLength = row.InnerText.Contains("Total length"); //recognize if last row is needed
+            if (row == listOfRows[0] || ((row == listOfRows[listOfRows.Count - 1]) && RowIsCalledTotalLength))
             {
                 return false;
             }
@@ -134,8 +135,8 @@ namespace test_task
         {
             int firstRow_Title = 0;                          //unwanted rows
             int lastRow_TotalLength = listOfRows.Count - 1;  //
-
-            if (row == listOfRows[firstRow_Title] || row == listOfRows[lastRow_TotalLength])   //dont get first and last row of names (because its "title" and "totallength")
+            bool RowIsCalledTotalLength = row.InnerText.Contains("Total length");
+            if (row == listOfRows[firstRow_Title] || ((row == listOfRows[lastRow_TotalLength]) && RowIsCalledTotalLength))   //dont get first and last row of names (because its "title" and "totallength")
             {
                 return false;
             }
