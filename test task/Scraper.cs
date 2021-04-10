@@ -19,11 +19,15 @@ namespace test_task
             var web = new HtmlWeb();
             try
             {
-
+                string? artistName = "";
                 var doc = web.Load(wikipediaPage);
-
-                string artistName = doc.DocumentNode.SelectSingleNode("//*[@class='contributor']").InnerText;
-
+                if (doc.DocumentNode.SelectSingleNode("//*[@class='contributor']") != null)
+                {
+                    artistName = doc.DocumentNode.SelectSingleNode("//*[@class='contributor']").InnerText;
+                }
+                else
+                    return null;
+                
                 List<List<SongInfo>> listOfTables = new List<List<SongInfo>>();
 
                 foreach (HtmlNode table in doc.DocumentNode.SelectNodes("//*[@class='tracklist']"))
@@ -37,9 +41,11 @@ namespace test_task
                 return listOfTables;
             }
             catch (UriFormatException)
-            {
+            {                
                 return null;
             }
+            
+            
         }
       
 
