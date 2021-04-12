@@ -10,15 +10,14 @@ namespace test_task
 {
     class ScraperUtility
     {
-        public static List<SongInfo> GetSongInfos(HtmlNodeCollection rows,string artistName)
+        public static List<SongInfo> GetSongInfos_Album(HtmlNodeCollection rows,string artistName)
         {
             List<SongInfo> tableOfSongs = new List<SongInfo>();
             foreach (HtmlNode row in rows) //inside every single row of all tracklist tables
-            {
-                              
-                string songName = GetSongNameFromRow(row, rows);
-                string songWriters = GetSongWritersFromRow(row, rows);
-                string songDuration = GetSongDurationFromRow(row, rows);
+            {                             
+                string songName = GetSongNameFromRow_Album(row, rows);
+                string songWriters = GetSongWritersFromRow_Album(row, rows);
+                string songDuration = GetSongDurationFromRow_Album(row, rows);
                 //artist always going to be the same
                 if (ValidatedForTable(row, rows) == true)
                 {
@@ -27,7 +26,19 @@ namespace test_task
             }
             return tableOfSongs;
         }
-        private static string GetSongNameFromRow(HtmlNode row, HtmlNodeCollection rows)
+        public static List<SongInfo> GetSongInfos_Single(List<HtmlNode> rows, string artistName)
+        {
+            List<SongInfo> tableOfSongs = new List<SongInfo>();
+            foreach(HtmlNode row in rows)
+            {
+                string songName = GetSongNameFromRow_Single(row, rows);
+                string songWriters = GetSongWritersFromRow_Single(row, rows);
+                string songDuration = GetSongDurationFromRow_Single(row, rows);
+                tableOfSongs.Add(new SongInfo(songName, artistName, songWriters, songDuration));
+            }
+            return tableOfSongs;
+        }
+        private static string GetSongNameFromRow_Album(HtmlNode row, HtmlNodeCollection rows)
         {
             if (ValidateRowForSongNameExtraction(row,rows) == true)   //dont get first and last row of names (because its "title" and "totallength")
             {
@@ -44,7 +55,7 @@ namespace test_task
             return "Song was not found";
 
         }
-        private static string GetSongWritersFromRow(HtmlNode row, HtmlNodeCollection rows)
+        private static string GetSongWritersFromRow_Album(HtmlNode row, HtmlNodeCollection rows)
         {
             if (ValidateRowForWritersExtraction(row, rows) == true)
             {
@@ -76,7 +87,7 @@ namespace test_task
             }
             return "Writer was not found";
         }
-        private static string GetSongDurationFromRow(HtmlNode row, HtmlNodeCollection rows)
+        private static string GetSongDurationFromRow_Album(HtmlNode row, HtmlNodeCollection rows)
         {
             if (ValidateROwForDurationExtraction(row,rows) == true)
             {
@@ -102,6 +113,41 @@ namespace test_task
                 }
             }
             return "Duration was not found";
+        }
+        private static string GetSongNameFromRow_Single(HtmlNode row, List<HtmlNode> rows)
+        {
+            string rowContents = row.InnerText;
+            int dashIndex = rowContents.IndexOf("–");
+            if (dashIndex > 0) 
+            {
+                rowContents = rowContents.Substring(0, dashIndex);
+            }
+            int bracketIndex = rowContents.IndexOf(")");
+            if(bracketIndex > 0)
+            {
+                rowContents = rowContents.Substring(1,bracketIndex);
+            }
+            
+            return rowContents;
+        }
+        private static string GetSongWritersFromRow_Single(HtmlNode row, List<HtmlNode> rows)
+        {
+            return "Writer wasn't specified";
+        }
+        private static string GetSongDurationFromRow_Single(HtmlNode row, List<HtmlNode> rows)
+        {
+            string rowContents = row.InnerText;
+            int dashIndex = rowContents.IndexOf("–");
+            if (dashIndex > 0)
+            {
+                rowContents = rowContents.Substring(dashIndex + 2);
+            }
+            int minusIndex = rowContents.IndexOf("-");
+            if(minusIndex > 0)
+            {
+                rowContents = rowContents.Substring(minusIndex + 1);
+            }
+            return rowContents;
         }
         private static bool ValidatedForTable(HtmlNode row, HtmlNodeCollection listOfRows)
         {

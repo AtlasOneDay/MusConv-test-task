@@ -35,7 +35,7 @@ namespace test_task
             listOfTablesWithSongs = scraper.ScrapeSongsData(wikipediaLink);
             if (listOfTablesWithSongs == null)                                //i know that one shouldn't return null but didn't know how to implement it otherwise
             {
-                List<string> exceptionMessage = new List<string>() { "Wikipedia link is empty or does not contain a proper table" };
+                List<string> exceptionMessage = new List<string>() { "Wikipedia link is invalid" };
                 ListBox_listOfSongs.Items = exceptionMessage;
             }
             else
